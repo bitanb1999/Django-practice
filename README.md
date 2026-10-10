@@ -59,10 +59,10 @@ Run these commands from the directory containing `manage.py`.
    .venv\Scripts\Activate.ps1
    ```
 
-2. Install Django:
+2. Install the project dependencies:
 
    ```bash
-   python -m pip install "Django==6.1.2"
+   python -m pip install -r requirements.txt
    ```
 
 3. Apply Django's built-in migrations and check the project:
